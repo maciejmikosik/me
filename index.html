@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+			html {
+			  font-size: 1.5em;
+			  font-family: Consolas,monaco,monospace;
+			}
+
+			div.tight {
+				text-align: center;
+			}
+			span.tight {
+				max-width: 50em;
+				display: inline-block;
+				vertical-align: top;
+			}
+
+			.tile {
+				padding: 0.4rem;
+				margin: 0.4rem;
+			}
+			span.tile {
+				display: inline-block;
+				vertical-align: top;
+			}
+
+			.name {
+				font-weight: 900;
+				font-size: 2em;
+			}
+			.account {
+				line-height: 1.25em;
+				font-weight: 700;
+				text-align: left;
+			}
+			img.face {
+				height: 10em;
+				display: inline-block;
+			}
+			img.icon {
+				height: 1em;
+				padding: 0 0.2em 0 0;
+				display: inline-block;
+				vertical-align: -0.15em;
+			}
+
+			.header {
+				font-size: 1.5em;
+				line-height: 1.25em;
+				font-weight: 700;
+				text-align: center;
+				border-style: solid;
+				border-width: 0.1em 0em;
+			}
+			.entry {
+				padding: 0.4rem;
+				margin: 0.4rem;
+				text-align: left;
+			}
+			.project {
+				font-weight: bold;
+			}
+			.tech {
+				display:inline-block;
+				white-space: nowrap;
+				color: RoyalBlue;
+				font-weight: bold;
+			}
+
+			a {
+				color: black;
+			}
+			.empty-line {
+				min-height: 1em;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="tight">
+			<span class="tight">
+				<div>
+					<!-- <img class="face tile" src="face.jpeg"/> -->
+					<span class="tile">
+						<div class="name tile"><a href="http://maciej.mikosik.com/">Maciej Mikosik</a></div>
+						<div class="account tile">
+							<div><a href="mailto:maciej@mikosik.com"><img class="icon" src="icons/mail.svg"/>maciej@mikosik.com</a></div>
+							<div class="empty-line"></div>
+							<div><a href="https://github.com/maciejmikosik"><img class="icon" src="icons/github.svg"/>github.com/maciejmikosik</a></div>
+							<div><a href="https://stackoverflow.com/users/344847"><img class="icon" src="icons/stackoverflow.svg"/>stackoverflow.com/users/344847</a></div>
+						</div>
+					</span>
+				</div>
+				<div class="entry">
+					I am <span class="tech"><img class="icon" src="icons/java.png"/>java</span> software engineer. I have been writing code for platforms like desktop (<span class="tech">AWT</span>/<span class="tech">swing</span>), backend (<span class="tech"><img class="icon" src="icons/spring.svg"/>spring</span>, <span class="tech">guice</span>), set-top boxes (<span class="tech">MHP</span>), <span class="tech"><img class="icon" src="icons/android.svg"/>android</span>, frontend (<span class="tech"><img class="icon" src="icons/gwt.png"/>GWT</span>, <span class="tech"><img class="icon" src="icons/wicket.svg"/>Wicket</span>) and <span class="tech"><img class="icon" src="icons/raspberrypi.svg"/>raspberry pi</span>.
+				</div>
+			</span>
+		</div>
+
+		<div class="tight">
+			<span class="tight">
+				<div class="header">
+					professional experience
+				</div>
+				<div class="entry">
+					<span class="project">Voltiso</span> - I developed <span class="tech">restful</span> backend for medical diagnostics app. It runs on <span class="tech"><img class="icon" src="icons/aws.svg"/>AWS</span> (<span class="tech">ECS</span>, <span class="tech">DynamoDB</span>, <span class="tech">SES</span>), uses <span class="tech"><img class="icon" src="icons/sparkjava.svg"/>SparkJava</span> web server and <span class="tech"><img class="icon" src="icons/restassured.png"/>RestAssured</span> for testing.
+				</div>
+				<div class="entry">
+					<span class="project"><a href="https://aleph.engineering/">Aleph Engineering</a></span> - I mentored newcomers in newly created software house in Havana/Cuba. My task was to promote good coding practices.
+				</div>
+				<div class="entry">
+					<span class="project"><a href="https://www.crazycall.com/">Crazy Call</a></span> - We developed <span class="tech">web</span> application for call center. It was hosted in <span class="tech"><img class="icon" src="icons/aws.svg"/>AWS</span> as a <span class="tech">restful</span> backend with auxiliary services using <span class="tech">S3</span> and <span class="tech">SQS</span>. We used <span class="tech"><img class="icon" src="icons/selenium.svg"/>selenium</span> and <span class="tech">MockMvc</span> for testing and <span class="tech"><img class="icon" src="icons/jooq.png"/>jooq</span> for sql queries.
+				</div>
+				<div class="entry">
+					<span class="project">Social Mind</span> - I prototyped Booke, an <span class="tech"><img class="icon" src="icons/android.svg"/>android</span> app using <span class="tech"><img class="icon" src="icons/epub.png"/>epublib</span> to interact with ebook content.
+				</div>
+				<div class="entry">
+					<span class="project">Solsoft</span> - I developed <span class="tech"><img class="icon" src="icons/android.svg"/>android</span> client for existing <span class="tech">restful</span> <span class="tech">backend</span> using <span class="tech">roboguice</span>.
+				</div>
+				<div class="entry">
+					<span class="project">Rabbit Software</span> - I wrote web applications for Municipal Office in Wrocław. We used <span class="tech"><img class="icon" src="icons/spring.svg"/>spring</span> and <span class="tech">jpa</span>/<span class="tech"><img class="icon" src="icons/hibernate.svg"/>hibernate</span> for backend, <span class="tech"><img class="icon" src="icons/wicket.svg"/>wicket</span> for frontend and <span class="tech"><img class="icon" src="icons/selenium.svg"/>selenium</span> for testing.
+				</div>
+				<div class="entry">
+					<span class="project">Sprezentuj</span> - We built web application for sharing wish lists. I was responsible for designing <span class="tech">jpa</span>/<span class="tech"><img class="icon" src="icons/hibernate.svg"/>hibernate</span> backend and client-server protocol using <span class="tech">gwt-rpc</span>.
+				</div>
+				<div class="entry">
+					<span class="project">Osmosys Technologies</span> - We developed applications for set-top boxes running on <span class="tech">mhp</span> middleware.
+				</div>
+				<div class="entry">
+					<span class="project">Siemens Wrocław</span> - I wrote gui tests for <span class="tech">swing</span> application to improve test coverage measured by <span class="tech">emma</span>. I implemented distibution of tests to multiple machines and created tool for generating test documentation using <span class="tech">doclet</span>.
+				</div>
+			</span>
+		</div>
+
+		<div class="tight">
+			<span class="tight">
+				<div class="header">
+					hobby projects
+				</div>
+				<div class="entry">
+					<span class="project"><a href="https://github.com/maciejmikosik/stork">stork</a></span> - untyped functional programming language.
+				</div>
+				<div class="entry">
+					<span class="project"><a href="microscope/microscope.html">automated microscope</a></span> - 3D printed and running on <span class="tech"><img class="icon" src="icons/raspberrypi.svg"/>raspberry pi</span>.
+				</div>
+				<div class="entry">
+					<span class="project"><a href="https://github.com/maciejmikosik/testory">testory</a></span> - java mocking library using <span class="tech">cglib</span>.
+				</div>
+				<div class="entry">
+					<span class="project"><a href="https://github.com/maciejmikosik/quackery">quackery</a></span> - library which allows to write parametrized tests once and reuse them in different contexts.
+				</div>
+				<div class="entry">
+					<span class="project"><a href="https://github.com/maciejmikosik/logbuddy">logbuddy</a></span> - aspect-oriented logging library using <span class="tech"><img class="icon" src="icons/bytebuddy.png"/>byte-buddy</span> for bytecode generation.
+				</div>
+				<div class="entry">
+					<span class="project"><a href="https://github.com/mikosik/deguicifier">deguicifier</a></span> - tool that converts <span class="tech">guice</span> modules into plain old java factories.
+				</div>
+				<div class="entry">
+					<a href="https://github.com/raphw/byte-buddy/issues/83">Contributed</a> to <span class="tech"><img class="icon" src="icons/bytebuddy.png"/>byte-buddy</span>.
+				</div>
+				<div class="header">
+					contests
+				</div>
+				<div class="entry">
+					Finalist of National Math Olympics: 2002, 2003.
+				</div>
+				<div class="entry">
+					7 times awarded in Kangaroo Math contest: 1997 - 2003.
+				</div>
+				<div class="entry">
+					participant of algorithmic contests:
+					<a href="https://sio2.mimuw.edu.pl/c/pa-2015-1/ranking/?page=2">2015</a></span>,
+					<a href="https://sio2.mimuw.edu.pl/c/pa-2018-1/ranking/?page=3">2018</a></span>,
+					<a href="https://sio2.mimuw.edu.pl/c/pa-2020-1/ranking/?page=2">2020</a></span>
+				</div>
+			</span>
+		</div>
+	</body>
+</html>
